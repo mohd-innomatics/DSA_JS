@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task2</title>
+
+    <script>
+      // let data = [20,40,10,50,80];
+      // let ele = 77777;
+      // let position = 2;
+
+      // for(let i=data.length-1; i>=0; i--){
+
+      //     if(i>=position){
+      //         data[i+1] = data[i];
+
+      //         if(i==position){
+      //             data[i] = ele;
+      //         }
+      //     }
+
+      // }
+
+      // console.log(data);
+
+      //   function addEle() {
+      //     let data = [20, 40, 10, 50, 80];
+      //     let ele = document.getElementById("ele").value;
+      //     let position = document.getElementById("pos").value;
+
+      //     ele = parseInt(ele);
+      //     position = parseInt(position);
+
+      //     if (!isNaN(ele) && !isNaN(position)) {
+      //       for (let i = data.length - 1; i >= 0; i--) {
+      //         if (i >= position) {
+      //           data[i + 1] = data[i];
+      //         }
+      //         if (position == i) {
+      //           data[position] = ele;
+      //         }
+      //       }
+      //     } else {
+      //       alert("Please give valid input..");
+      //     }
+
+      //     console.log(data);
+      //   }
+
+      //   alternative method is splice()
+      // syntax: array.splice(start, deleteCount, item1, item2, ...)
+
+      //   Example:
+      //   let arr = [10, 20, 30];
+      //   arr.splice(1, 0, 15); // Insert 15 at index 1, without deleting anything
+      //   console.log(arr); // Output: [10, 15, 20, 30]
+
+      // actual implementation with splice()
+      // function smart(){
+      //     let data = [20, 40, 10, 50, 80];
+      //     let ele = document.getElementById("ele").value;
+      //     let position = document.getElementById("pos").value;
+
+      //     data.splice(position,0,ele);
+
+      //     console.warn(data);
+
+      // }
+    </script>
+  </head>
+  <body>
+    <input type="text" placeholder="Enter position" id="pos" />
+    <input type="text" placeholder="Add element" id="ele" />
+    <button onclick="addEle()">Add</button>
+    <button onclick="smart()">smartAdd</button>
+  </body>
+</html>

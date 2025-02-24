@@ -1,0 +1,105 @@
+1. unsort data is not efficient in access.
+2. sorting data is make efficient in access.
+
+Algorithm means: whatever steps you have taken to sort the data.
+[3,2,55,1,9]: unsort
+[1,2,3,9,55]: sort
+
+Data structure
+-------------------
+1. primitive (int,float,char,pointer etc.)
+2. non primitie (array, list files)
+
+List: Linear Lists: (Stacks, Queues)
+List: non Linear: (Graphs, Tree)
+
+1. linear (operation at starting or ending but not in middle)
+2. non linear (anywhere in between we can perform op.)
+
+Operations on Data Structure 
+-----------------------------
+1. Traversal 
+2. Insertion
+3. Deletion
+4. Searching
+5. sorting
+6. Merging
+
+Data structure to learn
+-------------------------
+1. Array
+2. Stack
+3. Queue 
+4. Tree
+5. Graph
+6. Insertion 
+7. Recursion
+8. Search 
+9. Sorting 
+10. Merge 
+11. Set 
+
+Task1: 
+Array Travering and Accessing 
+-------------------------------------
+1. Create HTML Page write basic array
+2. Travering with loop
+3. Accessing elements
+4. Accessing element with text input and button
+5. Validations 
+
+
+Task2:
+Insert Element in Array
+-------------------------
+1. Understand issue and solution with Whiteboard
+2. Make array, define the position
+3. Use Loop to insert new element
+4. Insert element with text input and button
+5. Insert element with by default function
+
+
+
+Task3:
+Searc Element in Array 
+-------------------------
+1. understand case and solution with Whiteboard
+2. make array 
+3. use loop to search element 
+4. search element with text input and button
+    *   shortcut for search element(default functoion)
+    *   shortcut for delete element(default function)
+
+
+Tas4:
+Merge Two Array
+------------------
+1. understand case and solution with Whiteboard
+2. make three arrays
+3. use 2 different loops to merge element 
+    *   shortcut for reverse array element(default function)
+    *   shortcut for merge array(default function)
+
+
+Task5: (incomplete)
+Merge Two Array(while Loop)
+-----------------------------
+1. understand case and solution with whiteboard 
+2. make three arrays
+3. use while loop to merge element 
+    *   compare this logic with last one
+
+
+Task6
+Alorithmn Complexity
+------------------------
+1. algorithm basics
+2. what is algorithm complexity
+3. time complexity
+    * the time complexity is mainly calculated by counting the number of steps to finish the execution.
+
+4. space complexity
+    *   space complexity is the amount of space required to solve a problem
+    *   space complexity = auxiliary space + input size
+
+5. Big O notation (use to denote complexity(time/space))

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Traversing</title>
+
+    <script>
+        let data = [9,45,8,2,4,8,11,33];
+        // for(let i=0; i<data.length; i++){
+        //     document.write(`Array ${i} is ${data[i]} <br>`);
+        // }
+
+        function getElement(){
+            
+            let index = document.getElementById('element').value;
+            index = parseInt(index);
+
+            if(!isNaN(index)){
+                if(index < data.length){
+                    alert("Element: "+data[index]);
+                }
+                else{
+                    alert(`Such index is not available... value range upto: ${data.length-1}`);
+                    
+                }
+                
+            }
+            else{
+                alert('Please enter a valid number');
+            }
+            
+        }
+        
+    </script>
+</head>
+<body>
+    <input type="text" id="element">
+    <button onclick="getElement()">Get Element</button>
+</body>
+</html>
