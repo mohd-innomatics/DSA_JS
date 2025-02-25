@@ -103,3 +103,42 @@ Alorithmn Complexity
     *   space complexity = auxiliary space + input size
 
 5. Big O notation (use to denote complexity(time/space))
+
+Answer
+--------
+Algorithm Complexity:
+------------------------
+Algorithm Basics: A step-by-step procedure for solving a problem.
+
+What is Algorithm Complexity?: It measures an algorithm's efficiency in terms of time and space usage.
+
+Time Complexity: The number of steps an algorithm takes relative to the input size.
+
+Space Complexity: The amount of memory required by an algorithm, including both input size and extra space.
+
+Big O Notation: A way to express the upper bound of an algorithm's time or space complexity.
+
+Example: Insertion Sort has a time complexity of O(n^2) due to nested loops, indicating its performance degrades quadratically as the input grows.
+
+
+
+Asymptoic analysis and notation
+---------------------------------
+
+f(n) = 5n^2 + 6n + 12
+
+1. what is asymptotic analysis?
+2. how to calculate Time Complexity?
+3. asymptoic notation.
+
+
+Task6:
+Array Sorting
+-----------------
+1. basic understanding
+2. understand solution 
+3. write code and understand step by step
+4. what is Alorithmn complexity?
+5. Interview Question.
+
+
